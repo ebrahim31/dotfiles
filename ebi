@@ -1,0 +1,13 @@
+ 1 let g:netrw_liststyle = 3
+root/                   |  2 let g:netrw_banner = 0
+| .cache/               |  3 let g:netrw_browse_split = 4
+| .conda/               |  4 let g:netrw_winsize = 25
+| .ssh/                 |  5 :set number
+| .vim/                 |  6 augroup ProjectDrawer
+| demkit/               |  7         autocmd!
+| isis/                 |  8         autocmd VimEnter * :Vexplore
+| shared/               |  9 augroup END
+| conda_setup.sh*       |~                                                                       
+| pull_isis_data.sh*    |~                                                                       
+| .Xauthority           |~                                                                       
+| .bashrc               |~                  
